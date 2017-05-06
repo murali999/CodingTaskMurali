@@ -40,7 +40,7 @@ NSURLSession *session;
     
     [_scrollView setFrame:CGRectMake(0, scrollY, screenWidth, screenHeight - scrollY - 49)];
     
-    [_tableArticles setFrame:CGRectMake(_tableArticles.frame.origin.x, _tableArticles.frame.origin.y, _tableArticles.frame.size.width, screenHeight - scrollY - 49)];
+    [_tableArticles setFrame:CGRectMake(_tableArticles.frame.origin.x, _tableArticles.frame.origin.y, screenWidth, screenHeight - scrollY - 49)];
     
     
     UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
